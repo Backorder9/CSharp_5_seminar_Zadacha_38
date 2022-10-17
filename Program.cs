@@ -5,8 +5,8 @@
 void MaxMinDiff()
 {
 int n = new Random().Next(10, 15); // Размер массива задан случайно
-int [] num = new int[n];
-int min, max, diff;
+float [] num = new float[n];
+float min, max, diff;
 min = 1000;
 max = num[0];
 diff = 0;
